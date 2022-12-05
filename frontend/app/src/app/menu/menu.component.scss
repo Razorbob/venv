@@ -1,0 +1,21 @@
+.is-fullheight-100vh{
+    height: 100vh;
+}
+
+$footer-padding: 0.5rem 0rem 0.5rem;
+
+.footer {
+    padding: $footer-padding;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.is-grayed > img{
+    -webkit-filter: grayscale(100%) contrast(0%);
+    -moz-filter: grayscale(100%) contrast(0%);
+      -o-filter: grayscale(100%) contrast(0%);
+     -ms-filter: grayscale(100%) contrast(0%);
+         filter: grayscale(100%) contrast(0%);
+}

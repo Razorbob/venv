@@ -1,0 +1,220 @@
+<header class="navbar">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" routerLink="/">
+          <h1 class="is-size-2 has-text-weight-bold">Siemens</h1>
+        </a>
+        <span class="navbar-burger" data-target="navbarMenuHeroC"  *ngIf="show">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+      <div id="navbarMenuHeroC" class="navbar-menu"  *ngIf="show">
+        <div class="navbar-end">
+          <a class="navbar-item is-active">
+            History
+          </a>
+          <a class="navbar-item">
+            Configuration
+          </a>
+          <span class="navbar-item">
+            <a class="button is-success is-inverted">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>Vincent Dibon</span>
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="columns">
+    <section class="column is-fixed pl-2">
+        <aside class="menu pl-2">
+            <p class="menu-label">
+                Current Configuration
+            </p>
+            <ul class="menu-list">
+                <li>
+                    <div class="columns">
+                        <div class="column is-narrow">S8000</div>
+                        <div class="column is-narrow is-4"><input class="input is-small" type="text" placeholder="Anzahl"></div>
+                        <div class="column is-narrow"></div>
+                    </div> 
+                </li>
+                <li>
+                    <span class="tag is-success">
+                        <label for="test">Hello World</label>
+                        <input id="test" class="" type="text" placeholder="Anzahl">
+                        <button class="delete is-small"></button>
+                      </span>
+                </li>
+                <li>
+                    <table class="table is-striped is-fullwidth">
+                        <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Anzahl</th>
+                            <th>Aktion</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <th>S8000</th>
+                            <td><input class="input is-small" type="text" placeholder="Anzahl"></td>
+                            <td></td>
+                        </tbody>
+                    </table>
+                </li>
+            </ul>
+            <p class="menu-label">
+                Administration
+            </p>
+            <ul class="menu-list">
+                <li><a>Team Settings</a></li>
+                <li>
+                <a class="">Manage Your Team</a>
+                <ul>
+                    <li><a>Members</a></li>
+                    <li><a>Plugins</a></li>
+                    <li><a>Add a member</a></li>
+                </ul>
+                </li>
+                <li><a>Invitations</a></li>
+                <li><a>Cloud Storage Environment Settings</a></li>
+                <li><a>Authentication</a></li>
+            </ul>
+            <p class="menu-label">
+                Transactions
+            </p>
+            <ul class="menu-list">
+                <li><a>Payments</a></li>
+                <li><a>Transfers</a></li>
+                <li><a>Balance</a></li>
+            </ul>
+        </aside>
+    </section>
+    <section class="column">
+        <div class="container">
+            <h2 class="is-size-3 has-text-centered has-text-weight-semibold is-family-secondary mb-3">Konfigurator</h2>
+            <div class="columns">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="../../assets/img/a8000.png" alt="Image from A8000">
+                          </figure>
+                          <div class="is-overlay has-background-primary">
+                            <div class="text">S8000</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="../../assets/img/sip5.png" alt="Image of sip5">
+                          </figure>
+                          <div class="is-overlay has-background-link">
+                            <div class="text">Siprotec 5</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                          </figure>
+                          <div class="is-overlay has-background-primary">
+                            <div class="text">Hello World</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+    
+            <div class="columns">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                          </figure>
+                          <div class="is-overlay has-background-primary">
+                            <div class="text">Hello World</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                          </figure>
+                          <div class="is-overlay has-background-primary">
+                            <div class="text">Hello World</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                          </figure>
+                          <div class="is-overlay has-background-primary">
+                            <div class="text">Hello World</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+    
+            <div class="columns">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                          </figure>
+                          <div class="is-overlay has-background-primary">
+                            <div class="text">Hello World</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                          </figure>
+                          <div class="is-overlay has-background-primary">
+                            <div class="text">Hello World</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                          </figure>
+                          <div class="is-overlay has-background-primary">
+                            <div class="text">Hello World</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+      </section>      
+  </main>
+  

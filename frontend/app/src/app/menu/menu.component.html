@@ -1,0 +1,202 @@
+<div class="columns is-flex-direction-column is-fullheight-100vh">
+    <header class="navbar column is-narrow">
+        <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" routerLink="/">
+            <h1 class="is-size-2 has-text-weight-bold">Siemens</h1>
+            </a>
+            <span class="navbar-burger" data-target="navbarMenuHeroC"  *ngIf="show">
+            <span></span>
+            <span></span>
+            <span></span>
+            </span>
+        </div>
+        <div id="navbarMenuHeroC" class="navbar-menu"  *ngIf="show">
+            <div class="navbar-end">
+            <a class="navbar-item is-active">
+                History
+            </a>
+            <a class="navbar-item">
+                Configuration
+            </a>
+            <span class="navbar-item">
+                <a class="button is-success is-inverted">
+                <span class="icon">
+                    <i class="fab fa-github"></i>
+                </span>
+                <span>Vincent Dibon</span>
+                </a>
+            </span>
+            </div>
+        </div>
+        </div>
+    </header>
+    <main class="column">
+        <div class="container is-mobil">
+            <h2 class="is-size-3 has-text-centered has-text-weight-semibold is-family-secondary mb-3">Virtual Environments</h2>
+            <div class="columns is-centered">
+                <div class="column is-full">
+                    <table class="table is-striped is-fullwidth">
+                        <thead>
+                        <tr>
+                            <th>id</th>
+                            <th>Name</th>
+                            <th><abbr title="Number of deployed Devices"># Devices</abbr></th>
+                            <th>Config Repository</th>
+                            <th>Services</th>
+                            <th>Version</th>
+                            <th>Status</th> 
+                            <th>Action</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <th>Siemens Campus Microgrid</th>
+                            <td>12</td>
+                            <td><a href="https://code.siemens.com/" title="Config Repository">Code Siemens</a></td>
+                            <td class="">
+                                <div class="is-flex is-flex-direction-row is-align-content-center is-align-items-center">
+                                    <figure class="image is-32x32 mr-2 ">
+                                        <img src="../../assets/img/a8000.png">
+                                      </figure>
+    
+                                      <figure class="image is-32x32 is-grayed">
+                                        <img src="../../assets/img/sip5.png">
+                                      </figure>
+
+                                      <figure class="image is-32x32 is-grayed">
+                                        <img src="../../assets/img/a8000.png">
+                                      </figure>
+
+                                      <figure class="image is-32x32 is-grayed">
+                                        <img src="../../assets/img/sip5.png">
+                                      </figure>
+
+                                      <figure class="image is-32x32">
+                                        <img src="../../assets/img/a8000.png">
+                                      </figure>
+                                </div>
+                            </td>
+                            <td>1.0</td>
+                            <td><i class="fa-solid fa-circle-check has-text-success"></i></td>
+                            <td><a class="mr-2"><i class="fas fa-file-alt"></i></a>  <a class="mr-2"><i class="fa-solid fa-arrow-right"></i></a>  <a class="mr-2"><i class="fa-solid fa-rotate-right"></i></a>  <a><i class="fa-solid fa-trash"></i></a></td> 
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <th>Alba lulia</th>
+                            <td>23</td>
+                            <td><a href="https://code.siemens.com/" title="Config Repository">Code Siemens</a></td>
+                            <td class="">
+                                <div class="is-flex is-flex-direction-row is-align-content-center is-align-items-center">
+                                    <figure class="image is-32x32 mr-2">
+                                        <img src="../../assets/img/a8000.png">
+                                      </figure>
+    
+                                      <figure class="image is-32x32">
+                                        <img src="../../assets/img/sip5.png">
+                                      </figure>
+
+                                      <figure class="image is-32x32 is-grayed">
+                                        <img src="../../assets/img/a8000.png">
+                                      </figure>
+
+                                      <figure class="image is-32x32">
+                                        <img src="../../assets/img/sip5.png">
+                                      </figure>
+
+                                      <figure class="image is-32x32 is-grayed">
+                                        <img src="../../assets/img/a8000.png">
+                                      </figure>
+                                </div>
+                            </td>
+                            <td>0.3</td>
+                            <td><i class="fa-solid fa-circle-check has-text-success"></i></td>
+                            <td><a class="mr-2"><i class="fas fa-file-alt"></i></a>  <a class="mr-2"><i class="fa-solid fa-arrow-right"></i></a>  <a class="mr-2"><i class="fa-solid fa-rotate-right"></i></a>  <a><i class="fa-solid fa-trash"></i></a></td> 
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <th>Elektro Gorensk</th>
+                            <td>32</td>
+                            <td><a href="https://code.siemens.com/" title="Config Repository">Code Siemens</a></td>
+                            <td class="">
+                                <div class="is-flex is-flex-direction-row is-align-content-center is-align-items-center">
+                                    <figure class="image is-32x32 mr-2 is-grayed">
+                                        <img src="../../assets/img/a8000.png">
+                                      </figure>
+    
+                                      <figure class="image is-32x32">
+                                        <img src="../../assets/img/sip5.png">
+                                      </figure>
+
+                                      <figure class="image is-32x32">
+                                        <img src="../../assets/img/a8000.png">
+                                      </figure>
+
+                                      <figure class="image is-32x32">
+                                        <img src="../../assets/img/sip5.png">
+                                      </figure>
+
+                                      <figure class="image is-32x32">
+                                        <img src="../../assets/img/a8000.png">
+                                      </figure>
+                                </div>
+                            </td>
+                            <td>1.2</td>
+                            <td><i class="fa-solid fa-circle-check has-text-success"></i></td>
+                            <td><a class="mr-2"><i class="fas fa-file-alt"></i></a>  <a class="mr-2"><i class="fa-solid fa-arrow-right"></i></a>  <a class="mr-2"><i class="fa-solid fa-rotate-right"></i></a>  <a><i class="fa-solid fa-trash"></i></a></td> 
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <th>UW Obersielach</th>
+                            <td>45</td>
+                            <td><a href="https://code.siemens.com/" title="Config Repository">Code Siemens</a></td>
+                            <td class="">
+                                <div class="is-flex is-flex-direction-row is-align-content-center is-align-items-center">
+                                    <figure class="image is-32x32 mr-2">
+                                        <img src="../../assets/img/a8000.png">
+                                      </figure>
+    
+                                      <figure class="image is-32x32">
+                                        <img src="../../assets/img/sip5.png">
+                                      </figure>
+
+                                      <figure class="image is-32x32">
+                                        <img src="../../assets/img/a8000.png">
+                                      </figure>
+
+                                      <figure class="image is-32x32">
+                                        <img src="../../assets/img/sip5.png">
+                                      </figure>
+
+                                      <figure class="image is-32x32">
+                                        <img src="../../assets/img/a8000.png">
+                                      </figure>
+                                </div>
+                            </td>
+                            <td>1.2</td>
+                            <td><i class="fas fa-exclamation-circle has-text-danger"></i></td>
+                            <td><a class="mr-2"><i class="fas fa-file-alt"></i></a>  <a class="mr-2"><i class="fa-solid fa-arrow-right"></i></a>  <a class="mr-2"><i class="fa-solid fa-rotate-right"></i></a>  <a><i class="fa-solid fa-trash"></i></a></td> 
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div> 
+        </div>
+    </main>
+    <footer class="footer column is-narrow">
+    <div class="content has-text-centered">
+        <button class="button is-primary mb-3" routerLink="/config">
+            <span class="icon-text">
+                <span>New</span> 
+                <span class="icon">
+                    <i class="fa-solid fa-plus"></i>
+                </span>  
+            </span>
+        </button>
+        <p class="is-family-code">
+            Made with ❤️ by <strong>Vincent Dibon</strong>
+        </p>
+    </div>
+    </footer>
+</div>
